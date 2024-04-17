@@ -46,8 +46,8 @@ const Index = () => {
           NDIS Support Scheduler
         </Text>
         <HStack spacing={3}>
-          <Button leftIcon={<FaPlus />} colorScheme="blue" onClick={handleAddAppointment}>
-            Add Appointment
+          <Button leftIcon={<FaPlus />} colorScheme="blue" onClick={handleAddAppointment} isDisabled>
+            Add Appointment (Details Required)
           </Button>
           <Button leftIcon={<FaEdit />} colorScheme="yellow" onClick={handleEditAppointment}>
             Edit Appointment
